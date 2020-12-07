@@ -1,0 +1,17 @@
+.Dropzone {
+  height: 70px;
+  width: 100%;
+  border: 2px dashed  rgb(189, 189, 189);
+  border-radius: 0px;
+  padding: 7px;
+  font-size: 16px;
+  background-color: #F4F4F4;
+}
+
+.Highlight {
+  background-color: rgb(130, 70, 175); 
+}
+
+.FileInput {
+  display: none;
+}

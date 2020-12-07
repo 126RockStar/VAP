@@ -1,0 +1,19 @@
+.video-control {
+    overflow: hidden;
+    .thumbnails {
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.video-react {
+    background-color: #0b0c10;
+}
+.controlBar {
+    color:transparent;
+}
+
+.video-react-big-play-button-left { 
+    visibility: hidden;
+}

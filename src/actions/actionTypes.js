@@ -1,0 +1,84 @@
+// alert to the front end
+export const alertActions = {
+  SUCCESS: "ALERT_SUCCESS",
+  ERROR: "ALERT_ERROR",
+  CLEAR: "ALERT_CLEAR",
+};
+
+// user
+export const userActions = {
+  // register
+  REGISTER_REQUEST: "USERS_REGISTER_REQUEST",
+  REGISTER_SUCCESS: "USERS_REGISTER_SUCCESS",
+  REGISTER_FAILURE: "USERS_REGISTER_FAILURE",
+  // login
+  LOGIN_REQUEST: "USERS_LOGIN_REQUEST",
+  LOGIN_SUCCESS: "USERS_LOGIN_SUCCESS",
+  LOGIN_FAILURE: "USERS_LOGIN_FAILURE",
+  // logout
+  LOGOUT: "USERS_LOGOUT",
+  // get user list
+  GETALL_REQUEST: "USERS_GETALL_REQUEST",
+  GETALL_SUCCESS: "USERS_GETALL_SUCCESS",
+  GETALL_FAILURE: "USERS_GETALL_FAILURE",
+  // delete user
+  DELETE_REQUEST: "USERS_DELETE_REQUEST",
+  DELETE_SUCCESS: "USERS_DELETE_SUCCESS",
+  DELETE_FAILURE: "USERS_DELETE_FAILURE",
+};
+
+//
+export const videoActions = {
+  // get  full list
+  GETALL_VIDEO_REQUEST: "VIDEO_GETALL_REQUEST",
+  GETALL_VIDEO_SUCCESS: "VIDEO_GETALL_SUCCESS",
+  GETALL_VIDEO_FAILURE: "VIDEO_GETALL_FAILURE",
+};
+
+//
+export const eventActions = {
+  EDIT_TEXT_START: "EDIT_TEXT_START",
+  EDIT_TEXT_DOING: "EDIT_TEXT_DOING",
+  EDIT_TEXT_END: "EDIT_TEXT_END",
+};
+
+//
+export const eventMaskCircle = {
+  MASK_CIRCLE_START: "MASK_CIRCLE_START",
+  MASK_CIRCLE_END: "MASK_CIRCLE_END",
+};
+
+//
+export const eventHighLight = {
+  MASK_HIGHLIGHT_START: "MASK_HIGHLIGHT_START",
+  MASK_HIGHLIGHT_END: "MASK_HIGHLIGHT_END",
+};
+
+//
+export const eventControl = {
+  REMOVE_ALL: "REMOVE_ALL",
+};
+
+//
+export const eventColorChange = {
+  COLOR_CHANGE: "COLOR_CHANGE",
+};
+
+//
+export const eventShapeChange = {
+  SHAPE_CHANGE: "SHAPE_CHANGE",
+};
+
+//
+export const eventSaveSelectedId = {
+  SELECT_ID: "SELECT_ID",
+};
+
+//
+export const videoControl = {
+  VIDEO_PLAY: "VIDEO_PLAY",
+  VIDEO_STOP: "VIDEO_STOP",
+  THUMB_DRAG_START: "THUMB_DRAG_START",
+  THUMB_DRAG_STOP: "THUMB_DRAG_STOP",
+  VIDEO_LOADED: "VIDEO_LOADED",
+};

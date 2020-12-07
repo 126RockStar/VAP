@@ -1,0 +1,350 @@
+.sidebar {
+  margin: 6px 2px 2px 5px;
+  width: 56px;
+  background-color: #0b0c10;
+}
+
+.top-bar-controls {
+  height: 44px;
+  background-color: black;
+}
+
+.main-video-area {
+  height: 643px;
+  background-color: blanchedalmond;
+}
+
+.row.no-gutters {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.row.no-gutters>[class^="col-"],
+.row.no-gutters>[class*=" col-"] {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.col-side-right {
+  flex: 0 0 5% !important;
+  max-width: 5%;
+  background-color: #0b0c10;
+}
+
+.col-side-left {
+  flex: 0 0 95%;
+  max-width: 95%;
+  height:600px;
+  background-color: #0b0c10;
+}
+
+body {
+  margin: 0;
+}
+
+/* Left Bar Control Buttons */
+.sidebar-base-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 48px;
+  width: 48px;
+  color: #838da8;
+  font-family: Raleway;
+  font-size: 8px;
+  font-weight: 500;
+  text-align: center;
+  border: 1px solid #6e6e6e;
+  border-radius: 4px;
+  background: #2a2a2a;
+  color: #fff;
+  margin: 0px 0px 6px 0px;
+  cursor: pointer;
+
+  &.active {
+    border-color: #1e8dc8;
+  }
+}
+
+.sidebar-base-btn:hover {
+  border: 1px solid #1e8dc8;
+  box-shadow: 0 0 4px #f7f9fa;
+}
+
+.color-btn {
+  letter-spacing: 0;
+  line-height: 12px;
+  //margin-top: 14px;
+}
+
+.color-btn:after {
+  content: "";
+  height: 24px;
+  width: 24px;
+  border-radius: 20px;
+  background-color: #e4a934;
+  display: inline-block;
+}
+
+.dropdown-font {
+  background-color: #2a2a2a;
+}
+
+.linetype-btn {
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.linetype-btn:after {
+  content: "";
+  height: 1.92px;
+  width: 34.48px;
+  border-radius: 3px;
+  background-color: #e4a934;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.square-btn {
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.square-btn:after {
+  content: "";
+  box-sizing: border-box;
+  height: 28px;
+  width: 28px;
+  border: 2px solid #838da8;
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 8px;
+}
+
+.circle-btn {
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.circle-btn:after {
+  content: "";
+  height: 28px;
+  width: 28px;
+  border-radius: 20px;
+  border: 2px solid #838da8;
+  display: inline-block;
+  margin: 8px;
+}
+
+.dot-btn {
+  letter-spacing: 0;
+  line-height: 12px;
+  padding: 0;
+}
+
+.dot-btn:after {
+  content: "";
+  height: 28px;
+  width: 28px;
+  border-radius: 20px;
+  border: 1px solid #838da8;
+  background-color: #838da8;
+  display: inline-block;
+  margin: 8px;
+}
+
+.text-btn {
+  font-size: 18px;
+}
+
+/* Top Bar Control Buttons */
+.save-exit-btn {
+  display: inline-block;
+  height: 43px;
+  width: 130px;
+  background-color: #1e8dc8;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 14px;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+}
+
+.preview-btn {
+  height: 43px;
+  width: 130px;
+  background-color: black;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 14px;
+  padding: 0;
+  border: none;
+  border-right: 1px solid #1e8dc8;
+  vertical-align: top;
+}
+
+.preview-btn:before {
+  content: url("./Icons/preview-icon.svg");
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  vertical-align: sub;
+  margin-right: 8px;
+}
+
+.undo-btn {
+  height: 43px;
+  width: 130px;
+  background-color: black;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 14px;
+  padding: 0;
+  border: none;
+  border-right: 1px solid #1e8dc8;
+  vertical-align: top;
+}
+
+.undo-btn:before {
+  content: url("./Icons/undo-icon.svg");
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  vertical-align: sub;
+  margin-right: 8px;
+}
+
+.redo-btn {
+  height: 43px;
+  width: 130px;
+  background-color: black;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 14px;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+
+.redo-btn:before {
+  content: url("./Icons/redo-icon.svg");
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  vertical-align: sub;
+  margin-right: 8px;
+}
+
+.save-exit-btn:focus,
+.preview-btn:focus,
+.preview-btn:focus,
+.undo-btn:focus,
+.redo-btn:focus {
+  outline: none;
+}
+
+.top-bar-div {
+  box-sizing: border-box;
+  height: 42.5px;
+  width: 1px;
+  border: 1px solid #1e8dc8;
+  opacity: 0.3;
+}
+
+.dropdown-menu {
+  // background-color: #12161F;
+  background-color: #2e2e2e;
+  border: 1px solid #202020;
+}
+
+.lineDivChild {
+  height: 25px;
+  padding: 10px 0px 0px 0px;
+  vertical-align: middle;
+
+  &.active {
+    border: 2px solid #95c7f5;
+    //-webkit-box-shadow:0 0 10px #fff; 
+    //-moz-box-shadow: 0 0 10px #fff; 
+    box-shadow: 0 0 10px #f7f9fa;
+  }
+}
+
+.lineDivChild:hover {
+  border: 1px solid white;
+}
+
+.colorDivChild {
+  height: 32px;
+  width: 32px;
+  margin: 2px 0px 0px 4px;
+  float: left;
+}
+
+.colorDivChild:hover {
+  border: 1px solid white;
+}
+
+.videoDiv {
+  position: absolute;
+   top: 43px;
+   left: 58px;
+  //width: 1087px;
+  //height:600px;
+  background-color: #0b0c10;
+}
+
+.videoControls {
+  margin: 0px 0px 0px 0px;
+  height: 40px;
+  background-color: #0b0c10;
+}
+.video-controls {
+  font-size:14px;
+}
+
+.videoControlButton {
+  color: #838da8;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  border: 1px solid #6e6e6e;
+  border-radius: 6px;
+  background: #2a2a2a;
+  color: #fff;
+  margin: 5px 5px 5px 5px;
+  cursor: pointer;
+
+  &.active {
+    border-color: #1e8dc8;
+  }
+}
+
+.videoControlButton:hover {
+  border: 1px solid #1e8dc8;
+  box-shadow: 0 0 4px #f7f9fa;
+}
+
+.movieList {
+  color: white;
+  margin-left: 10px;
+}

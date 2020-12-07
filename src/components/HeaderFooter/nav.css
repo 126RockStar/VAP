@@ -1,0 +1,11 @@
+.mainNav {
+    height: 72px;
+    width: 100% !important;
+    background-color: #fff;
+    box-shadow: 0 2px 9px 0 rgba(0,0,0,0.11);
+  }
+
+  .logo-mark {
+    height: 26px;
+    width: 30px;
+  }
